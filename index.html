@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fatalla's Personal Website</title>
+    <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">"
+    <style media="screen">
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .logo {
+        width: 200px;
+        height: 50px;
+      }
+      nav ul{
+        flex: 1;
+        text-align: right;
+      }
+      nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 25px;
+      }
+      nav ul li a{
+        color: #fff;
+        text-decoration: none;
+      }
+      nav ul li a:hover{
+        color: 	#A0A0A0;
+      }
+      .upload-btn{
+        background: #ff5361;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 40px;
+        border-radius: 40px;
+        margin-left: 25px;
+        transition: transform 0.5s;
+      }
+
+      .upload-btn:hover{
+        transform: scale(0.9);
+      }
+
+      .hero{
+        background: url(images/wallpaperbg.jpg);
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        box-sizing: border-box;
+      }
+      .main h1 {
+        font-size: 52px;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+      .main{
+        display: block;
+        width: 100%;
+        max-width: 800px;
+        background: #ff5361;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 0;
+        border-radius: 30px;
+        margin: 60px auto;
+        font-size: 100px;
+
+      .main:hover{
+        transform: translateY(-10px);
+      }
+      a {
+        color: #0060B6;
+        text-decoration: none;
+      }
+
+      a:hover {
+          color:#00A0C6;
+          text-decoration:none;
+          cursor:pointer;
+      }
+      .note {
+        height: 100%;
+        display: flex;
+        flex-direciton: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="hero">
+      <nav>
+        <img src="images/fatalla_logo.png" class="logo">
+        <ul>
+          <li><a href="index.html" class="upload-btn">Home</a></li>
+          <li><a href="index2.html"class="upload-btn">Contact</a></li>
+          <li><a href="index3.html"class="upload-btn">About Me</a></li>
+        </ul>
+      </nav>
+      <br><br><br>
+      <div class="main">
+        <a href="index.html"class="upload-btn">Welcome to my Personal Website</a>
+
+      </div>
+      <div class="note">
+        <p><em>To know about me, please proceed to </em><a href="index3.html">About Me</a> Tab</p>
+        <p><em>To send inqueries and question, please proceed to </em><a href="index2.html">Contact</a> Tab</p>
+
+      </div>
+
+
+    </div>
+
+  </body>
+</html>

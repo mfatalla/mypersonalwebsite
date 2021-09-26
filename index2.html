@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fatalla's Personal Website</title>
+    <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">"
+    <style media="screen">
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+      }
+      .logo {
+        width: 200px;
+        height: 50px;
+      }
+      nav ul{
+        flex: 1;
+        text-align: right;
+      }
+      .hero2{
+        text-align: center;
+      }
+      .hero2 nav ul{
+        text-align: center;
+      }
+      .hero2 nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 25px;
+      }
+
+      nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 25px;
+      }
+      nav ul li a{
+        color: #fff;
+        text-decoration: none;
+      }
+      nav ul li a:hover{
+        color: 	#A0A0A0;
+      }
+      .upload-btn{
+        background: #ff5361;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 40px;
+        border-radius: 40px;
+        margin-left: 25px;
+        transition: transform 0.5s;
+      }
+
+      .upload-btn:hover{
+        transform: scale(0.9);
+      }
+
+      .hero{
+        background: url(images/wallpaperbg.jpg);
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        box-sizing: border-box;
+      }
+      .social-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .social-col{
+        flex-basis: 50%;
+        text-align: center;
+      }
+      .social-col img{
+        width: 20%;
+        cursor: pointer;
+      }
+      .social-col img:hover{
+        transform: translateY(-10px);
+
+      }
+      .send-email{
+        display: block;
+        width: 10%;
+        max-width: 350px;
+        background: #ff5361;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 0;
+        border-radius: 30px;
+        margin: 60px auto;
+        font-size: 18px;
+
+      .send-email:hover{
+        transform: translateY(-10px);
+      }
+      a {
+        color: #0060B6;
+        text-decoration: none;
+      }
+
+      a:hover {
+          color:#00A0C6;
+          text-decoration:none;
+          cursor:pointer;
+      }
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="images/fatalla_logo.png" class="logo">
+        <ul>
+          <li><a href="index.html" class="upload-btn">Home</a></li>
+          <li><a href="index2.html"class="upload-btn">Contact</a></li>
+          <li><a href="index3.html"class="upload-btn">About Me</a></li>
+        </ul>
+      </nav>
+
+      <h2>Personal Contact Information</h2>
+      <table cellspacing="30px">
+        <tbody>
+          <tr>
+            <td><em>Phone: </em></td>
+            <td><strong>+63 995 2403 623</strong></td>
+            <td><em>University Email: </em></td>
+            <td><strong>fml0970@dlsud.edu.ph</strong></td>
+
+          </tr>
+          <tr>
+            <td><em>Personal Email:</em></td>
+            <td><strong>im.fatalla.mark@gmail.com</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <h2>Send Email here: </h2>
+      <form action="mailto:im.fatalla.mark@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="Name" value=""><br><br>
+        <label>Your Email:</label>
+        <input type="email" name="Email" value=""><br><br>
+        <label>Your Message:</label><br><br>
+        <textarea name="Message" rows="5" cols="40"></textarea><br><br>
+        <input type="submit" name="">
+      </form>
+      <hr>
+
+      <h2>Social Media Accounts</h2>
+      <br><br>
+      <div class="hero2">
+        <div class="social-row">
+          <div class="social-col">
+            <a href="https://www.facebook.com/fatalla.mark"><img src="images/facebook.png"></a>
+          </div>
+          <div class="social-col">
+            <a href="https://www.instagram.com/mark.fatalla"><img src="images/instagram.png"></a>
+          </div>
+          <div class="social-col">
+            <a href="https://twitter.com/FatallaMark"><img src="images/twitter.png"></a>
+          </div>
+        </div>
+        <div class="social-row">
+          <div class="social-col">
+            <p><a href="https://www.facebook.com/fatalla.mark"><em><strong>@fatalla.mark</strong></em></a></p>
+          </div>
+          <div class="social-col">
+            <p><a href="https://www.instagram.com/mark.fatalla"><em><strong>@mark.fatalla</strong></em></a></p>
+          </div>
+          <div class="social-col">
+            <p><a href="https://twitter.com/FatallaMark"><em><strong>@FatallaMark</strong></em></a></p>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
